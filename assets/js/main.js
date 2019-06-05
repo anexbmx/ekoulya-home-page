@@ -76,7 +76,7 @@ $(document).ready(function () {
         let body = getFormData($(this));
         if(body.password != body.confirmPassword) {
             spinner.css('display', 'none');
-            html += `<li class=" text-danger list-group-item">Password not equql to Password Confirm</li>`
+            html += `<li class=" text-danger list-group-item">Password field did not match your input under Confirm  Password</li>`
             ul.html(html);
             return;
         }
