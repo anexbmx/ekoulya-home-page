@@ -17,25 +17,25 @@
 <body>
     <!-- TopBar Social media -->
     <div class="social-media pt-3 pb-0 d-none d-md-block" style="background: #000">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-7">
-                        <p  class="text-white">
-                            Welcome to our corporate buisness
-                        </p>
-                    </div>
-                    <div class="col-sm-5">
-                        <div class="social-link__block text-right">
-                            <a href="#" class="facebook"><i class="icon-facebook"></i></a>
-                            <a href="#" class="twitter"><i class="icon-twitter"></i></a>
-                            <a href="#" class="google-plus"><i class="icon-gplus"></i></a>
-                            <a href="#" class="linkedin"><i class="icon-linkedin"></i></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <p class="text-white">
+                        Welcome to our corporate buisness
+                    </p>
+                </div>
+                <div class="col-sm-5">
+                    <div class="social-link__block text-right">
+                        <a href="#" class="facebook"><i class="icon-facebook"></i></a>
+                        <a href="#" class="twitter"><i class="icon-twitter"></i></a>
+                        <a href="#" class="google-plus"><i class="icon-gplus"></i></a>
+                        <a href="#" class="linkedin"><i class="icon-linkedin"></i></a>
 
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light  sticky-top">
         <div class="container">
@@ -46,14 +46,22 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a  data-target="about_us" class="pointer scroll-nav font-weight-bold nav-item nav-link " >About Us</a>
-                    <a  data-target="project-section" class="pointer scroll-nav font-weight-bold nav-item nav-link" >Our Projects</a>
-                    <a  data-target="our-service" class="pointer scroll-nav font-weight-bold nav-item nav-link" >Our Service</a>
-                    <a  data-target="our-team" class="pointer scroll-nav font-weight-bold nav-item nav-link " >Our Team</a>
-                    <a  data-target="our-testimonial" class="pointer scroll-nav font-weight-bold nav-item nav-link " >Our Testimonial</a>
-                    <a  data-target="our-blog" class="pointer scroll-nav font-weight-bold nav-item nav-link " >Our Blog</a>
-                    <a  data-target="inscription" class="pointer scroll-nav font-weight-bold nav-item nav-link text-success" >Sign Up</a>
-                    <a  data-target="inscription" class="pointer scroll-nav font-weight-bold nav-item nav-link text-warning" >Sign In</a>
+                    <a data-target="about_us" class="pointer scroll-nav font-weight-bold nav-item nav-link ">About
+                        Us</a>
+                    <a data-target="project-section" class="pointer scroll-nav font-weight-bold nav-item nav-link">Our
+                        Projects</a>
+                    <a data-target="our-service" class="pointer scroll-nav font-weight-bold nav-item nav-link">Our
+                        Service</a>
+                    <a data-target="our-team" class="pointer scroll-nav font-weight-bold nav-item nav-link ">Our
+                        Team</a>
+                    <a data-target="our-testimonial" class="pointer scroll-nav font-weight-bold nav-item nav-link ">Our
+                        Testimonial</a>
+                    <a data-target="our-blog" class="pointer scroll-nav font-weight-bold nav-item nav-link ">Our
+                        Blog</a>
+                    <a data-target="inscription"
+                        class="pointer scroll-nav font-weight-bold nav-item nav-link text-success">Sign Up</a>
+                    <a data-target="inscription"
+                        class="pointer scroll-nav font-weight-bold nav-item nav-link text-warning">Sign In</a>
                 </div>
             </div>
         </div>
@@ -491,64 +499,91 @@
                 <h2 class="text-center text-white"> <span class="color-main font-weight-normal">Sign</span> Up</h2>
                 <span class="b-line m-auto bg-main"></span>
             </div>
-            <form>
-                <form>
-                    <div class="row">
-                        <div class="col-12 col-md-6 col-lg-3 mb-4">
-                            <input required type="text" class="form-control" placeholder="Full Name">
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-3 mb-4">
-                            <input required type="email" class="form-control" placeholder="Email">
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-3 mb-4">
-                            <input required type="number" class="form-control" placeholder="Telephone">
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-3 mb-4">
-                            <input required type="number" class="form-control" placeholder="Support Telephone">
-                        </div>
-
-                        <div class="col-12  mb-4">
-                            <input required type="text" class="form-control" placeholder="Address">
-                        </div>
 
 
-                        <div class="col-md-6 mb-4">
-                            <select id="inputState" class="form-control">
-                                <option selected disabled class="text-danger">Ville Ramassage</option>
-                                <option>Ville 1</option>
-                                <option>Ville 2</option>
-                                <option>Ville 3</option>
-                                <option>Ville 4</option>
-                            </select>
+            <div id="modal-form" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
+                 aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content p-4">
+                        <div class="lds-spinner m-auto">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
                         </div>
+                        <ul class="list-group list-group-flush">
 
-                        <div class="col-md-6 mb-4">
-                            <select id="inputState" class="form-control">
-                                <option selected disabled class="text-secondary">Ville Livraison</option>
-                                <option>Ville 1</option>
-                                <option>Ville 2</option>
-                                <option>Ville 3</option>
-                                <option>Ville 4</option>
-                            </select>
-                        </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-                        <div class="col-12 col-md-6  mb-4">
-                            <input required type="text" class="form-control" placeholder="RIB">
-                        </div>
-                        <div class="col-12 col-md-6  mb-4">
-                            <input required type="text" class="form-control" placeholder="BankName">
-                        </div>
-
-                        <div class="col-12 col-md-6 mb-4">
-                            <input required type="text" class="form-control" placeholder="Store Name">
-                        </div>
-                        <div class="col-12 col-md-6 mb-4">
-                            <input required type="text" class="form-control" placeholder=" short store Name">
-                        </div>
+            <form id='form-sign-up' enctype="multipart/form-data">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <input name="name" required type="text" class="form-control" placeholder="Full Name">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <input name="email" required type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <input name="password" required type="password" class="form-control" placeholder="password">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <input name="confirmPassword" required type="password" class="form-control"
+                            placeholder="confirm Password">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <input name="telephone" required type="number" class="form-control" placeholder="Telephone">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <input name="supportTelephone" required type="number" class="form-control"
+                            placeholder="Support Telephone">
                     </div>
 
-                    <button class="btn-block text-light btn btn-light bg-main border-none">Send</button>
-                </form>
+                    <div class="col-12  mb-4">
+                        <input name="address" required type="text" class="form-control" placeholder="Address">
+                    </div>
+
+
+                    <div class="col-md-6 mb-4">
+                        <select name="villeRamassage" id="villeRamassage" class="form-control">
+                            <option selected disabled>Ville Ramassage</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <select name="villeInscription" id="villeInscription" class="form-control">
+                            <option selected disabled>Ville Inscription</option>
+                        </select>
+                    </div>
+
+                    <div class="col-12 col-md-6  mb-4">
+                        <input name="RIB" required type="text" class="form-control" placeholder="RIB">
+                    </div>
+                    <div class="col-12 col-md-6  mb-4">
+                        <input name="BankName" required type="text" class="form-control" placeholder="BankName">
+                    </div>
+
+                    <div class="col-12 col-md-6 mb-4">
+                        <input name="storeName" required type="text" class="form-control" placeholder="Store Name">
+                    </div>
+                    <div class="col-12 col-md-6 mb-4">
+                        <input name="shortStoreName" required type="text" class="form-control"
+                            placeholder=" short store Name">
+                    </div>
+                </div>
+
+                <input type="submit" value="Send"
+                    class="sign-up btn-block text-light btn btn-light bg-main border-none">
             </form>
         </div>
     </section>
@@ -566,7 +601,8 @@
                     <div class="team_colume img-scale">
                         <div class="team_item">
                             <figure>
-                                <img src="assets/images/teams/01.jpg" class="img-fluid rounded-circle shadow shadow" alt="">
+                                <img src="assets/images/teams/01.jpg" class="img-fluid rounded-circle shadow shadow"
+                                    alt="">
                             </figure>
                         </div>
                         <div class="team_detail mt-10  ">
@@ -584,7 +620,8 @@
 
                         <div class="team_item mt-10 flex-lg-last">
                             <figure>
-                                <img src="assets/images/teams/02.jpg" class="img-fluid rounded-circle shadow shadow" alt="">
+                                <img src="assets/images/teams/02.jpg" class="img-fluid rounded-circle shadow shadow"
+                                    alt="">
                             </figure>
                         </div>
                         <div class="team_detail  ">
@@ -757,8 +794,7 @@
                                     Black-and-White?</a></h3>
 
                             <div class="flat-link mt-3">
-                                <a href="#" class="font-weight-bold main-color">More <i
-                                        class="fa fa-angle-right"></i></a>
+                                <a href="#" class="font-weight-bold main-color">More</a>
                             </div>
                         </div>
                     </div>
@@ -955,11 +991,11 @@
 
     <!-- Load Script -->
 
-    <script  src="assets/js/jquery-3.4.1.min.js"></script>
-    <script  src="assets/js/bootstrap.min.js"></script>
-    <script  src="assets/js//owl.carousel.min.js"></script>
-    <script  src="assets/js//main.js"></script>
-    <script  src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js//owl.carousel.min.js"></script>
+    <script src="assets/js//main.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
 </body>
 
