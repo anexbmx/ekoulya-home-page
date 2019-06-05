@@ -73,26 +73,33 @@ $(document).ready(function () {
         $('#modal-form').modal('show');
 
 
+        let body = getFormData($(this));
+        if(body.password != body.confirmPassword) {
+            spinner.css('display', 'none');
+            html += `<li class=" text-danger list-group-item">Password not equql to Password Confirm</li>`
+            ul.html(html);
+            return;
+        }
 
-        axios.post('http://localhost:3000/api/clients', getFormData($(this)))
+        axios.post('http://localhost:3000/api/clients', body)
             .then(function () {
                 html = `<li class="text-center text-success list-group-item">Your account has been successfully created. 
                 An email has been sent to you to activate it</li>`;
                 form.trigger('reset');
-                
+
             }).catch(function (error) {
                 let errors = error.response.data.errors;
                 Object.keys(errors).forEach(key => {
                     let value = errors[key];
                     html += `<li class=" text-danger list-group-item">${value.message}</li>`
-                })
+                });
             }).finally(() => {
                 ul.html(html);
                 spinner.css('display', 'none');
             });
     })
 
-    setVilles();
+    setVillesFromApi();
 
 });
 
@@ -108,12 +115,13 @@ function getFormData($form) {
         name: indexed_array.storeName,
         shortName: indexed_array.shortStoreName
     }
+
     indexed_array.storeName = undefined;
     indexed_array.shortStoreName = undefined;
     return indexed_array;
 }
 
-async function setVilles() {
+async function setVillesFromApi() {
     try {
         let villes = await axios.get('http://localhost:3000/api/villes/client', { mode: 'no-cors' })
         let html = '';
