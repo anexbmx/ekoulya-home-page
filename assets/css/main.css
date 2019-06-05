@@ -1,0 +1,519 @@
+
+/*
+* Update Bootstrap
+*/
+.nav-link {
+    color: #000;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff !important;
+    background-color: #1ABCE8;
+}
+
+/*
+* Framwork
+*/
+
+.shadow { box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,.05);}
+.bg-main { background: #1ABCE8 }
+.color-main, .nav-link.active { color: #1ABCE8 !important }
+.mb-30 { margin-bottom: 30px }
+.mt-30 { margin-top: 30px }
+.padding {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.b-line {
+    position: relative;
+    width: 60px;
+    height: 3px;
+    display: block;
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #222;
+    font-weight: 700;
+}
+
+.pointer { cursor: pointer !important}
+/* 
+* Social Media 
+*/
+
+.social-link__block a {
+    color: #fff ;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin-top: -3px;
+    text-align: center
+
+}
+
+.social-link__block a.facebook { background-color: #3a6bb1; }
+.social-link__block a.twitter { background-color: #0ec8f5; }
+.social-link__block a.google-plus { background-color: #f2623b; }
+.social-link__block a.linkedin { background-color: #0094d3; }
+
+
+/* 
+* Header 
+*/
+
+header .logo {
+    padding: 10px 0;
+}
+
+
+
+header .ekoulya-info {
+    background: #F3F3F5;
+}
+
+nav { border-bottom: solid 1px #e0e0e0;}
+
+header .ekoulya-info h3,
+header .ekoulya-info p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+
+.xicon {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    color: #1ABCE8;
+    line-height: 1;
+}
+
+.carousel .carousel-item {
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.52);
+}
+
+.carousel .carousel-caption .content{
+    max-width: 395px;
+    min-width: 395px;
+}
+
+.carousel .carousel-caption .title-1 {
+    margin: 0px 0px 3px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.carousel .carousel-caption .title-2 {
+    margin: 0px 0px 6px;
+    padding: 6px 0px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.carousel .carousel-caption .lead {
+    margin: 0px 0px 11px;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+@media screen and (min-width: 992px) {
+
+    header .logo {
+        padding: 27px 0;
+    }
+
+    header .ekoulya-info {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    header .logo::after {
+        content: "";
+        background: #1ABCE8 none repeat scroll 0 0;
+        transform: skewX(-30deg);
+        -webkit-transform: skewX(-30deg);
+        height: 100%;
+        width: 79px;
+        right: -31px;
+        position: absolute;
+        top: 0;
+        z-index: 9;
+    } 
+
+    .xicon { position: absolute }
+
+    header .ekoulya-info h3,
+    header .ekoulya-info p {
+        margin-right: 14px;
+        padding-left: 50px;
+    }
+    
+}
+
+/*
+* Section: About Us
+*/
+
+
+/*
+* Section: project-section
+*/
+
+#project-section .lead {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 1rem;
+    padding: 10px 0;
+}
+
+#project-section  figure img {
+    max-height: 533;
+    transition: all 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+    -webkit-transition: all 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+    -moz-transition: all 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+    -ms-transition: all 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+    -o-transition: all 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+#project-section  figcaption a {
+    height: 80px;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    bottom: -80px;
+    padding: 16px 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.2s cubic-bezier(0.47, 0, 0.745, 0.715);
+    -webkit-transition: all 0.2s cubic-bezier(0.47, 0, 0.745, 0.715);
+    -moz-transition: all 0.2s cubic-bezier(0.47, 0, 0.745, 0.715);
+    -ms-transition: all 0.2s cubic-bezier(0.47, 0, 0.745, 0.715);
+    -o-transition: all 0.2s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+#project-section  figcaption p {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+}
+
+#project-section .owl-carousel-1 .item:hover img {
+    transform: translateY(-80px);
+}
+
+#project-section .owl-carousel-1 .item:hover a {
+    bottom: 0;
+}
+
+.owl-carousel-1 .owl-nav {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+}
+
+.owl-carousel-1 .owl-nav .owl-prev, 
+.owl-carousel-1 .owl-nav .owl-next {
+    font-size: 31px !important;
+    font-weight: bold!important;
+    height: 40px!important;
+    width: 40px!important;
+    line-height: 0!important;
+    background: rgba(245,245,245,0.8)!important;
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .owl-carousel-1 .owl-stage {
+        right: 80px;
+    }
+}
+
+
+/*
+* Section: Our-Service
+*/
+
+#our-service {
+    background: #F7F7F7;
+}
+
+#our-service .nav-pills-icon{
+    margin-right: 15px;
+    width: 45px;
+}
+
+#our-service .list-service {
+    margin-bottom: 2px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #222;
+    transition: all .3s;
+    font-weight: 500;
+    max-width: 690px;
+    width: 100%;
+    margin: auto;
+    background: #fff;
+    padding: 0;
+}
+
+#our-service .list-service a {
+    border-bottom: 2px solid #F7F7F7;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0  !important;
+    -webkit-border-radius: 0  !important;
+    -moz-border-radius: 0  !important;
+    -ms-border-radius: 0  !important;
+    -o-border-radius: 0  !important;
+}
+
+#our-service .list-point {
+    margin-top: 32px;
+    padding: 0;
+    list-style-type: none;
+}
+
+#our-service .list-point li::before {
+    content: '>';
+    display: inline-block;
+    color: #1ABCE8;
+    font-weight: bold;
+}
+
+/*
+* Inscription
+*/
+
+#inscription {
+    background: url('../images/bg_22.jpg') 0 0 no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#inscription .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+}
+
+
+/*
+* Our-team
+*/
+
+#our-team .team_colume p {
+    font-size: 14px;
+    color: #888
+}
+
+
+/*
+* Our-testimonial
+*/
+
+#our-testimonial {
+    background: url('../images/bg_23.jpg') 0 0 no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#our-testimonial .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+}
+
+#our-testimonial .item-testimonial p {
+    font-weight: 500;
+    position: relative;
+}
+
+#our-testimonial .item-testimonial .icon-quote-left{
+    background: #0693b9;
+    border-radius: 50%;
+    bottom: 73px;
+    color: #ffffff;
+    font-size: 18px;
+    height: 50px;
+    left: 38px;
+    line-height: 49px;
+    position: absolute;
+    text-align: center;
+    width: 50px;
+    display: block;
+}
+
+#our-testimonial .img-user {
+    width: 50px;
+    border-radius: 50%;;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#our-testimonial .media {
+    margin-top: 33px;
+}
+
+/*
+* Our-Blog
+*/
+
+
+#our-blog .item {
+    background: #F7F7F7;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#our-blog .item img {
+    width: 600px;
+}
+
+#our-blog .meta-post {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.latest__block-title {
+    line-height: 0.7;
+}
+
+.latest__block-title a {
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #000;
+}
+
+.latest__block-title a:hover {
+    color: #0693b9;
+}
+
+
+/*
+* Our-Blog
+*/
+
+#info_ekoulya {
+    background: #000;
+    color: #fff;
+}
+
+#info_ekoulya .media-body span {
+    font-size: 12px;
+}
+
+#info_ekoulya .media .icon {
+    font-size: 30px;
+    line-height: 1;
+}
+
+
+/*
+* Footer
+*/
+
+footer {
+    background: url('../images/bg_24.jpg') 0 0 no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+footer .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #222;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+}
+
+footer h4 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer .list-unstyled a {
+    color: #fff;
+}
+
+footer .list-unstyled li {
+    border-bottom: 1px solid #222;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+footer .last-list {
+    list-style: none;
+    padding: 0;
+}
+
+.copyriight_block {
+    border-top: 1px solid #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

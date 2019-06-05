@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/fonts/css/fontello.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <!-- TopBar Social media -->
+    <div class="social-media pt-3 pb-0 d-none d-md-block" style="background: #000">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <p  class="text-white">
+                            Welcome to our corporate buisness
+                        </p>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="social-link__block text-right">
+                            <a href="#" class="facebook"><i class="icon-facebook"></i></a>
+                            <a href="#" class="twitter"><i class="icon-twitter"></i></a>
+                            <a href="#" class="google-plus"><i class="icon-gplus"></i></a>
+                            <a href="#" class="linkedin"><i class="icon-linkedin"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a  data-target="about_us" class="pointer scroll-nav font-weight-bold nav-item nav-link " >About Us</a>
+                    <a  data-target="project-section" class="pointer scroll-nav font-weight-bold nav-item nav-link" >Our Projects</a>
+                    <a  data-target="our-service" class="pointer scroll-nav font-weight-bold nav-item nav-link" >Our Service</a>
+                    <a  data-target="our-team" class="pointer scroll-nav font-weight-bold nav-item nav-link " >Our Team</a>
+                    <a  data-target="our-testimonial" class="pointer scroll-nav font-weight-bold nav-item nav-link " >Our Testimonial</a>
+                    <a  data-target="our-blog" class="pointer scroll-nav font-weight-bold nav-item nav-link " >Our Blog</a>
+                    <a  data-target="inscription" class="pointer scroll-nav font-weight-bold nav-item nav-link text-success" >Sign Up</a>
+                    <a  data-target="inscription" class="pointer scroll-nav font-weight-bold nav-item nav-link text-warning" >Sign In</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header>
+        <div class="row m-0">
+            <div class="col-lg-3 col-md-12 d-flex justify-content-center bg-main">
+                <div class="logo">
+                    <a href="/"><img src="assets/images/logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-12 ekoulya-info text-center text-lg-left">
+                <article class="p-3 p-lg-0 mr-lg-2">
+                    <i class="xicon icon-location"></i>
+                    <h3 class="color-main">13005 Greenvile Avenue</h3>
+                    <p>California, TX 70240</p>
+                </article>
+                <article class="p-3 p-lg-0 mr-lg-2">
+                    <i class="xicon icon-phone"></i>
+                    <h3 class="color-main">Call Us</h3>
+                    <p>+56 (0) 012 345 6789</p>
+                </article>
+                <article class="p-3 p-lg-0 mr-lg-2">
+                    <i class="xicon icon-mail"></i>
+                    <h3 class="color-main">Mail Us</h3>
+                    <p><a class="text-dark" href="mailto:info@gmail.com">info@gmail.com</a></p>
+                </article>
+            </div>
+        </div>
+
+        <!-- NavBar -->
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light  sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="font-weight-bold nav-item nav-link active" href="#">Home <span
+                                class="sr-only">(current)</span></a>
+                        <a class="font-weight-bold nav-item nav-link" href="#">Features</a>
+                        <a class="font-weight-bold nav-item nav-link" href="#">Pricing</a>
+                        <a class="font-weight-bold nav-item nav-link " href="#">Disabled</a>
+                        <a class="font-weight-bold nav-item nav-link " href="#">Disabled</a>
+                        <a class="font-weight-bold nav-item nav-link " href="#">Disabled</a>
+                        <a class="font-weight-bold nav-item nav-link " href="#">Disabled</a>
+                    </div>
+                </div>
+            </div>
+        </nav> -->
+        <!-- Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active" style="background-image: url('assets/images/banners/banner_1.jpg')">
+                    <div class="carousel-caption d-none d-md-block text-left">
+                        <div class="content mr-auto">
+                            <h2 class="display-4 title-1">It's an Amazing Services!</h2>
+                            <h2 class="display-4 title-2">We Provide Best Mover & Packer Services</h2>
+                            <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide Two - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('assets/images/banners/banner_2.jpg')">
+                    <div class="carousel-caption d-none d-md-block text-center">
+                        <div class="content m-auto">
+
+                            <h2 class="display-4 title-1">It's an Amazing Services!</h2>
+                            <h2 class="display-4 title-2">We Provide Best Mover & Packer Services</h2>
+                            <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('assets/images/banners/banner_3.jpg')">
+                    <div class="carousel-caption d-none d-md-block text-right">
+                        <div class="content ml-auto">
+
+                            <h4 class="display-4 title-1">It's an Amazing Services!</h4>
+                            <h2 class="display-4 title-2">We Provide Best Mover & Packer Services</h2>
+                            <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </header>
+
+    <!-- section: About US -->
+    <section id="about_us" class="padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-5 about-left">
+                    <h4 class="text-secondary" style="font-size: 15px;">
+                        <i>Welcome To Our</i>
+                    </h4>
+                    <div class="sec_hedding text-left mb-30">
+                        <h2>Tez <span class="color-main font-weight-normal">Mover</span> Company</h2>
+                        <span class="b-line l-left bg-main"></span>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim aquis
+                        nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat orem ipsum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim aquis
+                        nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat orem ipsum.
+                    </p>
+
+                </div>
+
+                <div class="col-md-12 col-lg-7  d-flex align-items-end">
+                    <div class="row">
+                        <div class="col-md-6 pic-show mt-30">
+                            <img class="img-fluid" src="assets/images/peoples/people1.jpg" alt="">
+                        </div>
+                        <div class="col-md-6 pic-show mt-30">
+                            <img class="img-fluid" src="assets/images/peoples/people2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- section: project-section -->
+    <section id="project-section" class="">
+        <div class="row m-0">
+            <div class="col-md-6 col-lg-4 bg-main pt-4 pb-5 pl-3 pr-3 ">
+                <div class="sec_hedding text-left">
+                    <h2 class="text-light"><span class="font-weight-normal">Our</span> Projects</h2>
+                    <span class="b-line m-left bg-light"></span>
+                </div>
+                <p class="lead text-light">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever.
+                </p>
+                <button class="btn btn-light color-main  rounded">READ MORE</button>
+            </div>
+            <div class="col-md-6 col-lg-8 p-0">
+                <div class="owl-carousel owl-carousel-1 owl-theme">
+                    <div class="item">
+                        <figure class="m-0">
+                            <img class="img-fluid" src="assets/images/projects/project_home_1.jpg" alt="">
+                            <figcaption>
+                                <p class="m-0 position-absolute font-weight-bold"><span class="color-main">AMEX</span>
+                                    BM</p>
+                                <a class="position-absolute bg-dark">When Goliath comes out, you should run.</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure class="m-0">
+                            <img class="img-fluid" src="assets/images/projects/project_home_4.jpg" alt="">
+                            <figcaption>
+                                <p class="m-0 position-absolute font-weight-bold"><span class="color-main">AMEX</span>
+                                    BM</p>
+                                <a class="position-absolute bg-dark">When Goliath comes out, you should run.</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure class="m-0">
+                            <img class="img-fluid" src="assets/images/projects/project_home_3.jpg" alt="">
+                            <figcaption>
+                                <p class="m-0 position-absolute font-weight-bold"><span class="color-main">AMEX</span>
+                                    BM</p>
+                                <a class="position-absolute bg-dark">When Goliath comes out, you should run.</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure class="m-0">
+                            <img class="img-fluid" src="assets/images/projects/project_home_4.jpg" alt="">
+                            <figcaption>
+                                <p class="m-0 position-absolute font-weight-bold"><span class="color-main">AMEX</span>
+                                    BM</p>
+                                <a class="position-absolute bg-dark">When Goliath comes out, you should run.</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure class="m-0">
+                            <img class="img-fluid" src="assets/images/projects/project_home_5.jpg" alt="">
+                            <figcaption>
+                                <p class="m-0 position-absolute font-weight-bold"><span class="color-main">AMEX</span>
+                                    BM</p>
+                                <a class="position-absolute bg-dark">When Goliath comes out, you should run.</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- section: our-service -->
+    <section id="our-service" class="padding">
+        <div class="sec_hedding text-left mb-30">
+            <h2 class="text-center"> <span class="color-main font-weight-normal">Our</span> Service</h2>
+            <span class="b-line m-auto bg-main"></span>
+        </div>
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-lg-4  p-2">
+                    <div class="list-service shadow">
+                        <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <a class="nav-link active text-dark" id="v-pills-home-tab" data-toggle="pill"
+                                href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                <img class="nav-pills-icon" width="45" src="assets/images/icons/icon1.png" alt="">
+                                <b>Home</b>
+                            </a>
+                            <a class="nav-link text-dark" id="v-pills-profile-tab" data-toggle="pill"
+                                href="#v-pills-profile" role="tab" aria-controls="v-pills-profile"
+                                aria-selected="false">
+                                <img class="nav-pills-icon" width="45" src="assets/images/icons/icon2.png" alt="">
+                                <b>Profile</b>
+                            </a>
+                            <a class="nav-link text-dark" id="v-pills-messages-tab" data-toggle="pill"
+                                href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                aria-selected="false">
+                                <img class="nav-pills-icon" width="45" src="assets/images/icons/icon3.png" alt="">
+                                <b>Messages</b>
+                            </a>
+                            <a class="nav-link text-dark" id="v-pills-settings-tab" data-toggle="pill"
+                                href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
+                                aria-selected="false">
+                                <img class="nav-pills-icon" width="45" src="assets/images/icons/icon4.png" alt="">
+                                <b>Settings</b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 p-2">
+                    <div class="tab-content bg-white shadow" id="v-pills-tabContent">
+                        <!-- Tab 1 -->
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                            aria-labelledby="v-pills-home-tab">
+                            <div class="row m-0 p-3">
+                                <div class="col-12 p-0">
+                                    <img class="img-fluid" src="assets/images/services/service_1.jpg" alt="">
+                                </div>
+                                <article class="col-md-8 p-0">
+                                    <h5 class="mt-2 mb-2"><b>Home</b></h5>
+                                    <p class="mb-3 text-jutify pr-2">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make Lorem Ipsum is
+                                        simply dummy text of the printing and typesetting industry...
+                                    </p>
+                                    <button class="btn btn-light bg-main text-white">READ MORE</button>
+                                </article>
+                                <div class="col-md-4 p-0">
+                                    <ul class="list-point pl-md-4">
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Labore et dolore
+                                        </li>
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Magna aliqua enim
+                                        </li>
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Buka amin
+                                        </li>
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Labore et dolore
+                                        </li>
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Magna aliqua enim
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tab 2 -->
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab">
+                            <div class="row m-0 p-3">
+                                <div class="col-12 p-0">
+                                    <img class="img-fluid" src="assets/images/services/service_2.jpg" alt="">
+                                </div>
+                                <article class="col-md-8 p-0">
+                                    <h5 class="mt-2 mb-2"><b>Profile</b></h5>
+                                    <p class="mb-3 text-jutify pr-2">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make Lorem Ipsum is
+                                        simply dummy text of the printing and typesetting industry...
+                                    </p>
+                                    <button class="btn btn-light bg-main text-white">READ MORE</button>
+                                </article>
+                                <div class="col-md-4 p-0">
+                                    <ul class="list-point pl-md-4">
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Labore et dolore
+                                        </li>
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Magna aliqua enim
+                                        </li>
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Buka amin
+                                        </li>
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Labore et dolore
+                                        </li>
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Magna aliqua enim
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tab 3 -->
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                            aria-labelledby="v-pills-messages-tab">
+                            <div class="row m-0 p-3">
+                                <div class="col-12 p-0">
+                                    <img class="img-fluid" src="assets/images/services/service_3.jpg" alt="">
+                                </div>
+                                <article class="col-md-8 p-0">
+                                    <h5 class="mt-2 mb-2"><b>Messages</b></h5>
+                                    <p class="mb-3 text-jutify pr-2">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make Lorem Ipsum is
+                                        simply dummy text of the printing and typesetting industry...
+                                    </p>
+                                    <button class="btn btn-light bg-main text-white">READ MORE</button>
+                                </article>
+                                <div class="col-md-4 p-0">
+                                    <ul class="list-point pl-md-4">
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Labore et dolore
+                                        </li>
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Magna aliqua enim
+                                        </li>
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Buka amin
+                                        </li>
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Labore et dolore
+                                        </li>
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Magna aliqua enim
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tab 4 -->
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab">
+                            <div class="row m-0 p-3">
+                                <div class="col-12 p-0">
+                                    <img class="img-fluid" src="assets/images/services/service_4.jpg" alt="">
+                                </div>
+                                <article class="col-md-8 p-0">
+                                    <h5 class="mt-2 mb-2"><b>Setting</b></h5>
+                                    <p class="mb-3 text-jutify pr-2">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make Lorem Ipsum is
+                                        simply dummy text of the printing and typesetting industry...
+                                    </p>
+                                    <button class="btn btn-light bg-main text-white">READ MORE</button>
+                                </article>
+                                <div class="col-md-4 p-0">
+                                    <ul class="list-point pl-md-4">
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Labore et dolore
+                                        </li>
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Magna aliqua enim
+                                        </li>
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Buka amin
+                                        </li>
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Labore et dolore
+                                        </li>
+                                        <li>
+                                            <i class="ion-chevron-right"></i> Magna aliqua enim
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section: Inscription -->
+    <section id="inscription" class="padding d-block">
+        <div class="overlay"></div>
+        <div class="container position-relative">
+            <div class="sec_hedding text-left mb-30">
+                <h2 class="text-center text-white"> <span class="color-main font-weight-normal">Sign</span> Up</h2>
+                <span class="b-line m-auto bg-main"></span>
+            </div>
+            <form>
+                <form>
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <input required type="text" class="form-control" placeholder="Full Name">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <input required type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <input required type="number" class="form-control" placeholder="Telephone">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <input required type="number" class="form-control" placeholder="Support Telephone">
+                        </div>
+
+                        <div class="col-12  mb-4">
+                            <input required type="text" class="form-control" placeholder="Address">
+                        </div>
+
+
+                        <div class="col-md-6 mb-4">
+                            <select id="inputState" class="form-control">
+                                <option selected disabled class="text-danger">Ville Ramassage</option>
+                                <option>Ville 1</option>
+                                <option>Ville 2</option>
+                                <option>Ville 3</option>
+                                <option>Ville 4</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-6 mb-4">
+                            <select id="inputState" class="form-control">
+                                <option selected disabled class="text-secondary">Ville Livraison</option>
+                                <option>Ville 1</option>
+                                <option>Ville 2</option>
+                                <option>Ville 3</option>
+                                <option>Ville 4</option>
+                            </select>
+                        </div>
+
+                        <div class="col-12 col-md-6  mb-4">
+                            <input required type="text" class="form-control" placeholder="RIB">
+                        </div>
+                        <div class="col-12 col-md-6  mb-4">
+                            <input required type="text" class="form-control" placeholder="BankName">
+                        </div>
+
+                        <div class="col-12 col-md-6 mb-4">
+                            <input required type="text" class="form-control" placeholder="Store Name">
+                        </div>
+                        <div class="col-12 col-md-6 mb-4">
+                            <input required type="text" class="form-control" placeholder=" short store Name">
+                        </div>
+                    </div>
+
+                    <button class="btn-block text-light btn btn-light bg-main border-none">Send</button>
+                </form>
+            </form>
+        </div>
+    </section>
+
+    <!-- Section: Our team -->
+    <section id="our-team" class="padding d-block">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="sec_hedding text-left mb-30">
+                <h2 class="text-center "><span class="color-main font-weight-normal">Our</span> Team</h2>
+                <span class="b-line m-auto bg-main"></span>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center mb-5">
+                    <div class="team_colume img-scale">
+                        <div class="team_item">
+                            <figure>
+                                <img src="assets/images/teams/01.jpg" class="img-fluid rounded-circle shadow shadow" alt="">
+                            </figure>
+                        </div>
+                        <div class="team_detail mt-10  ">
+                            <h6 class="font-weight-bold">Will Smith</h6>
+                            <span>Ui Developer</span>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 text-center mb-5">
+                    <div class="team_colume img-scale d-flex flex-column flex-md-column-reverse">
+
+                        <div class="team_item mt-10 flex-lg-last">
+                            <figure>
+                                <img src="assets/images/teams/02.jpg" class="img-fluid rounded-circle shadow shadow" alt="">
+                            </figure>
+                        </div>
+                        <div class="team_detail  ">
+                            <h6 class="font-weight-bold">Will Smith</h6>
+                            <span>Ui Developer</span>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 text-center  mb-5">
+                    <div class="team_colume img-scale">
+                        <div class="team_item">
+                            <figure>
+                                <img src="assets/images/teams/03.jpg" class="img-fluid rounded-circle shadow" alt="">
+                            </figure>
+                        </div>
+                        <div class="team_detail mt-10  ">
+                            <h6 class="font-weight-bold">Will Smith</h6>
+                            <span>Ui Developer</span>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 text-center  mb-5">
+                    <div class="team_colume img-scale d-flex flex-column flex-md-column-reverse">
+
+                        <div class="team_item mt-10 flex-lg-last">
+                            <figure>
+                                <img src="assets/images/teams/04.jpg" class="img-fluid rounded-circle shadow" alt="">
+                            </figure>
+                        </div>
+                        <div class="team_detail  ">
+                            <h6 class="font-weight-bold">Will Smith</h6>
+                            <span>Ui Developer</span>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Our testemonial -->
+    <section id="our-testimonial" class="padding">
+        <div class="overlay"></div>
+        <div class="container position-relative">
+            <div class="sec_hedding text-left mb-30">
+                <h2 class="text-center text-white"><span class="color-main font-weight-normal">Our</span> Testimonial
+                </h2>
+                <span class="b-line m-auto bg-main"></span>
+            </div>
+            <div class="owl-carousel owl-carousel-2 owl-theme text-justify text-white">
+                <div class="item-testimonial  m-3 ">
+                    <p class="bg-main p-4 pb-5 shadow">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod [..]
+                    </p>
+                    <span class="icon-quote-left"></span>
+                    <div class="media  ml-4">
+                        <img class="mr-3 img-user" src="assets/images/teams/01.jpg" alt="Generic placeholder image">
+                        <div class="media-body">
+                            <h6 class="m-0">Media heading</h6>
+                            CEO
+                        </div>
+                    </div>
+                </div>
+                <div class="item-testimonial m-3 ">
+                    <p class="bg-main p-4 pb-5 shadow">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod [..]
+                    </p>
+                    <span class="icon-quote-left"></span>
+                    <div class="media  ml-4">
+                        <img class="mr-3 img-user" src="assets/images/teams/01.jpg" alt="Generic placeholder image">
+                        <div class="media-body">
+                            <h6 class="m-0">Media heading</h6>
+                            CEO
+                        </div>
+                    </div>
+                </div>
+                <div class="item-testimonial m-3 ">
+                    <p class="bg-main p-4 pb-5 shadow">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod [..]
+                    </p>
+                    <span class="icon-quote-left"></span>
+                    <div class="media  ml-4">
+                        <img class="mr-3 img-user" src="assets/images/teams/01.jpg" alt="Generic placeholder image">
+                        <div class="media-body">
+                            <h6 class="m-0">Media heading</h6>
+                            CEO
+                        </div>
+                    </div>
+                </div>
+                <div class="item-testimonial m-3 ">
+                    <p class="bg-main p-4 pb-5 shadow">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod [..]
+                    </p>
+                    <span class="icon-quote-left"></span>
+                    <div class="media  ml-4">
+                        <img class="mr-3 img-user" src="assets/images/teams/01.jpg" alt="Generic placeholder image">
+                        <div class="media-body">
+                            <h6 class="m-0">Media heading</h6>
+                            CEO
+                        </div>
+                    </div>
+                </div>
+                <div class="item-testimonial m-3 ">
+                    <p class="bg-main p-4 pb-5 shadow">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod [..]
+                    </p>
+                    <span class="icon-quote-left"></span>
+                    <div class="media  ml-4">
+                        <img class="mr-3 img-user" src="assets/images/teams/01.jpg" alt="Generic placeholder image">
+                        <div class="media-body">
+                            <h6 class="m-0">Media heading</h6>
+                            CEO
+                        </div>
+                    </div>
+                </div>
+                <div class="item-testimonial m-3 ">
+                    <p class="bg-main p-4 pb-5 shadow">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod [..]
+                    </p>
+                    <span class="icon-quote-left"></span>
+                    <div class="media  ml-4">
+                        <img class="mr-3 img-user" src="assets/images/teams/01.jpg" alt="Generic placeholder image">
+                        <div class="media-body">
+                            <h6 class="m-0">Media heading</h6>
+                            CEO
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Our blog -->
+    <section id="our-blog" class="padding">
+        <div class="overlay"></div>
+        <div class="container position-relative">
+            <div class="sec_hedding text-left mb-30">
+                <h2 class="text-center"><span class="color-main font-weight-normal">Our</span> Blog
+                </h2>
+                <span class="b-line m-auto bg-main"></span>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="img-scale item shadow">
+                        <figure>
+                            <img class="img-fluid" src="assets/images/blog/home_blog_1.jpg" alt="">
+                        </figure>
+                        <div class="p-3">
+                            <div class="meta-post">
+                                Feb, 24th 2018
+                            </div>
+                            <h3 class="latest__block-title"><a href="blog-single.html">How To Decorate With
+                                    Black-and-White?</a></h3>
+
+                            <div class="flat-link mt-3">
+                                <a href="#" class="font-weight-bold main-color">More <i
+                                        class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="img-scale item shadow">
+                        <figure>
+                            <img class="img-fluid" src="assets/images/blog/home_blog_2.jpg" alt="">
+                        </figure>
+                        <div class="p-3">
+                            <div class="meta-post">
+                                Feb, 24th 2018
+                            </div>
+                            <h3 class="latest__block-title"><a href="blog-single.html">How To Decorate With
+                                    Black-and-White?</a></h3>
+
+                            <div class="flat-link mt-3">
+                                <a href="#" class="font-weight-bold main-color">More <i
+                                        class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="img-scale item shadow">
+                        <figure>
+                            <img class="img-fluid" src="assets/images/blog/home_blog_3.jpg" alt="">
+                        </figure>
+                        <div class="p-3">
+                            <div class="meta-post">
+                                Feb, 24th 2018
+                            </div>
+                            <h3 class="latest__block-title"><a href="blog-single.html">How To Decorate With
+                                    Black-and-White?</a></h3>
+
+                            <div class="flat-link mt-3">
+                                <a href="#" class="font-weight-bold main-color">More <i
+                                        class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: info-ekoulya -->
+    <section id="info_ekoulya" class="p-4">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-md-4">
+                    <div class="media mb-3">
+                        <span class="icon-phone icon"></span>
+                        <div class="media-body">
+                            <h6 class="m-0 font-weight-bold">0(000) 000 000</h6>
+                            <span>Monday-Friday, 8am-7pm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="media mb-3">
+                        <span class="icon-mail icon"></span>
+                        <div class="media-body">
+                            <h6 class="m-0 font-weight-bold">business@support.com</h6>
+                            <span>Monday-Friday, 8am-7pm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="media mb-3">
+                        <span class="icon-megaphone icon"></span>
+                        <div class="media-body">
+                            <h6 class="m-0 font-weight-bold">Request a quote</h6>
+                            <span>Get all the infomation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="">
+        <div class="overlay"></div>
+        <div class="container position-relative">
+            <div class="row text-white">
+                <div class="col-lg-3 mb-3">
+                    <article class="footer_box__block">
+                        <h4>About Us</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, architecto, asperiores.
+                            Recusandae ea a culpa eligendi, harum amet cumque quod.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sequi, fuga rem aperiam
+                            expedita ipsum.
+                        </p>
+                    </article>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <article class="footer_box__block">
+                        <h4>Latest Blog Post</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#">Start your own agency</a>
+                            </li>
+                            <li>
+                                <a href="#">How to cool down quality</a>
+                            </li>
+                            <li>
+                                <a href="#">Make something awesome</a>
+                            </li>
+                            <li>
+                                <a href="#">Plane your summer vacation</a>
+                            </li>
+                            <li>
+                                <a href="#">There are sunlight to enjoy</a>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <article class="footer_box__block">
+                        <h4>Our Project</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#">Go get an ice-cream</a>
+                            </li>
+                            <li>
+                                <a href="#">Become the best version</a>
+                            </li>
+                            <li>
+                                <a href="#">Eat, Sleep and have fun</a>
+                            </li>
+                            <li>
+                                <a href="#">Start the journy to the top</a>
+                            </li>
+                            <li>
+                                <a href="#">Can you do this for us?</a>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <article class="footer_box__block address-box">
+                        <h4>Contact info</h4>
+                        <ul class="last-list">
+                            <li>
+                                <p>
+                                    <i class="icon-phone"></i>
+                                    Call Us +56 (0) 012 345 6789
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <i class="icon-mail"></i>
+                                    <a class="text-white" href="mailto:info@example.com">business@support.com</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <i class="icon-location"></i>
+                                    123 Main Street, St. NW Ste, 1 Washington, DC,USA.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <i class="icon-clock"></i>
+                                    Monday-Firday, 9am-6pm;
+                                    <br>
+                                    Sunday Closed
+                                </p>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+            <div class="copyriight_block">
+                <div class="row mt-5">
+                    <div class="col-sm-6">
+                        <a href="#" class="footer__block-logo"><img src="assets/images/footer_logo.png" alt=""></a>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                        <p class="text-white">
+                            All Rights Reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Load Script -->
+
+    <script  src="assets/js/jquery-3.4.1.min.js"></script>
+    <script  src="assets/js/bootstrap.min.js"></script>
+    <script  src="assets/js//owl.carousel.min.js"></script>
+    <script  src="assets/js//main.js"></script>
+    <script  src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</body>
+
+</html>
