@@ -18,13 +18,17 @@ $(document).ready(function () {
             // breakpoint from 768 up
             768: {
                 items: 1,
-                stagePadding: 80
+                stagePadding: 40
             },
             992: {
                 items: 2,
                 stagePadding: 0
             },
             1200: {
+                items: 2,
+                stagePadding: 80
+            },
+            1357: {
                 items: 3,
             }
         }
