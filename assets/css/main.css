@@ -470,6 +470,17 @@ header .ekoulya-info p {
     position: relative;
 }
 
+#our-testimonial .detail {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.09);
+    padding: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
 #our-testimonial .overlay {
     position: absolute;
     height: 100%;

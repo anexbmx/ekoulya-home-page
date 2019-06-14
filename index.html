@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/fonts/css/fontello.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -46,12 +48,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a data-target="about_us" class="pointer scroll-nav font-weight-bold nav-item nav-link ">A Propos De Nous
-                        </a>
-                    <a data-target="project-section" class="pointer scroll-nav font-weight-bold nav-item nav-link">Notre Vision
-                        </a>
-                    <a data-target="our-service" class="pointer scroll-nav font-weight-bold nav-item nav-link">Notre Service</a>
-                    <a data-target="our-mission" class="pointer scroll-nav font-weight-bold nav-item nav-link ">Notre Mission</a>
+                    <a data-target="about_us" class="pointer scroll-nav font-weight-bold nav-item nav-link ">A Propos De
+                        Nous
+                    </a>
+                    <a data-target="project-section" class="pointer scroll-nav font-weight-bold nav-item nav-link">Notre
+                        Vision
+                    </a>
+                    <a data-target="our-service" class="pointer scroll-nav font-weight-bold nav-item nav-link">Notre
+                        Service</a>
+                    <a data-target="our-mission" class="pointer scroll-nav font-weight-bold nav-item nav-link ">Notre
+                        Mission</a>
                     <a data-target="our-testimonial" class="pointer scroll-nav font-weight-bold nav-item nav-link ">Our
                         Testimonial</a>
                     <a data-target="our-blog" class="pointer scroll-nav font-weight-bold nav-item nav-link ">Our
@@ -64,6 +70,7 @@
             </div>
         </div>
     </nav>
+
     <!-- Header -->
     <header>
         <div class="row m-0">
@@ -894,25 +901,25 @@
                 colis durant toute l'opération de livraison.
             </p>
             <div class="row">
-                <div class="col-sm-6 col-md-3 text-center mb-5 ">
+                <div class="col-sm-6 col-md-6 col-lg-3 text-center mb-5 ">
                     <figure class=" bg-light shadow-2 box-img border">
                         <img width="120" src="https://image.flaticon.com/icons/svg/1792/1792855.svg" alt="img-fluid">
                         <figcaption class="font-weight-bold text-success p-2">
-                                Rapidité
+                            Rapidité
                         </figcaption>
                     </figure>
                 </div>
 
-                <div class="col-sm-6 col-md-3 text-center mb-5">
+                <div class="col-sm-6 col-md-6 col-lg-3 text-center mb-5">
                     <figure class=" bg-light shadow-2 box-img border">
                         <img width="120" src="https://image.flaticon.com/icons/svg/1670/1670430.svg" alt="img-fluid">
                         <figcaption class="font-weight-bold text-success p-2">
-                                Sécurité
+                            Sécurité
                         </figcaption>
                     </figure>
                 </div>
 
-                <div class="col-sm-6 col-md-3 text-center  mb-5">
+                <div class="col-sm-6 col-md-6 col-lg-3 text-center  mb-5">
                     <figure class=" bg-light shadow-2 box-img border">
                         <img width="120" src="https://image.flaticon.com/icons/svg/1832/1832685.svg" alt="img-fluid">
                         <figcaption class="font-weight-bold text-success p-2">
@@ -921,7 +928,7 @@
                     </figure>
                 </div>
 
-                <div class="col-sm-6 col-md-3 text-center  mb-5">
+                <div class="col-sm-6 col-md-6 col-lg-3 text-center  mb-5">
                     <figure class=" bg-light shadow-2 box-img border">
                         <img width="120" src="https://image.flaticon.com/icons/svg/1066/1066368.svg" alt="img-fluid">
                         <figcaption class="font-weight-bold text-success p-2">
@@ -933,10 +940,34 @@
             </div>
         </div>
     </section>
+    
     <!-- Section: Our testemonial -->
     <section id="our-testimonial" class="padding">
         <div class="overlay"></div>
         <div class="container position-relative">
+
+            <!-- Pour quoi Ekoulya ? -->
+            <div class="prk-ekoulya">
+                <div class="sec_hedding text-left mb-30">
+                    <h2 class="text-center text-white"><span class="color-main font-weight-normal">Pour </span>quoi
+                        Ekoulya
+                    </h2>
+                    <span class="b-line m-auto bg-main"></span>
+                </div>
+                <div class="detail shadow mb-5">
+                    Pour le E-commerce la phase de livraison est la plus importante surtout pour les acheteurs en ligne
+                    .Pour cela , il faut avoir une gestion de livraion performante qui répond aux attente des clients.
+                    <br>
+                    Le paiement à la livraison étant le mode de paiement le plus apprécié des consommateurs Marocain.
+                    Pour mieux cerner ce processus, Ekoulya vous fournit la solution et vous proposer une distribution
+                    express et rapide, avec des livreurs opérationnel à tout moment, partout dans Maroc et tout près de
+                    vos clients, vous assurant une livraison de vos colis dans de délais reduits. Et qui se chargeront
+                    de récolter vos fond lors du paiement à la livraison.
+                </div>
+
+            </div>
+
+            <!-- Our Testemonial -->
             <div class="sec_hedding text-left mb-30">
                 <h2 class="text-center text-white"><span class="color-main font-weight-normal">Our</span> Testimonial
                 </h2>
@@ -1259,9 +1290,12 @@
 
     <script src="assets/js/jquery-3.4.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js//owl.carousel.min.js"></script>
-    <script src="assets/js//main.js"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/axios.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
